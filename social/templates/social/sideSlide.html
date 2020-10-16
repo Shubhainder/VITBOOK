@@ -25,8 +25,8 @@
                 </div>
                 <hr>
                 <li class="nav-item active">
-                    <button type="button" class="btn chk"><a href="{% url 'home' %}">Home<i
-                                class="fa fa-home"></i></a></button>
+                    <button type="button" class="btn chk"><a href="{% url 'home' %}"><i
+                                class="fa fa-home"></i>Home</a></button>
                 </li>
 
 {#                <li class="nav-item active">#}
@@ -45,18 +45,18 @@
                 </li>
 
                 <li class="nav-item active">
-                    <button type="button" class="btn chk"><a href="{% url 'profileList' %}">Search Vitians<i
-                                class="fas fa-search"></i></a></button>
+                    <button type="button" class="btn chk"><a href="{% url 'profileList' %}"><i
+                                class="fas fa-search"></i>Search Vitians</a></button>
                 </li>
 
                 <li class="nav-item active">
-                    <button type="button" class="btn chk"><a href="{% url 'chat_ajax' %}">Forum<i
-                                class="fa fa-comments "></i></a></button>
+                    <button type="button" class="btn chk"><a href="{% url 'chat_ajax' %}"><i
+                                class="fa fa-comments "></i>Forum</a></button>
                 </li>
 
                 <li class="nav-item active">
-                    <button type="button" class="btn chk"><a href="{% url 'poll_home' %}">Poll<i
-                            class="fa fa-table" aria-hidden="true"></i></a></button>
+                    <button type="button" class="btn chk"><a href="{% url 'poll_home' %}"><i
+                            class="fa fa-table" aria-hidden="true"></i>Poll</a></button>
                 </li>
 
 {#                <li class="nav-item active">#}
@@ -65,41 +65,41 @@
 {#                </li>#}
 
                 <li class="nav-item active">
-                    <button type="button" class="btn chk"><a href="{% url 'ub' %}">Announcements<i
-                                class="fa fa-poll-people"></i></a></button>
+                    <button type="button" class="btn chk"><a href="{% url 'ub' %}"><i
+                                class="fa fa-poll-people"></i>Announcements</a></button>
                 </li>
 
                 <li class="nav-item active">
-                    <button type="button" class="btn chk"><a href="{% url 'vithubList' %}">VITHUB<i
+                    <button type="button" class="btn chk"><a href="{% url 'vithubList' %}"><i
                             class="fa fa-code" aria-hidden="true"></i></a></button>
                 </li>
 
                 <li class="nav-item active">
                     <button type="button" class="btn chk"><a href="{% url 'attendance' %}">Attendance<i
-                            class="fa fa-table" aria-hidden="true"></i></a></button>
+                            class="fa fa-table" aria-hidden="true"></i>VITHUB</a></button>
                 </li>
 
                 <li class="nav-item active">
-                    <button type="button" class="btn chk"><a href="{% url 'grades' %}">Grades<i
-                            class="fa fa-book" aria-hidden="true"></i></a></button>
-                </li>
-
-                <li class="nav-item active">
-                    <button type="button" class="btn chk"><a target="_blank"
-                            href="https://abhishek2x.github.io/techera/">TECHERA<i
-                                class="fa fa-newspaper"></i></a></button>
+                    <button type="button" class="btn chk"><a href="{% url 'grades' %}"><i
+                            class="fa fa-book" aria-hidden="true"></i>Grades</a></button>
                 </li>
 
                 <li class="nav-item active">
                     <button type="button" class="btn chk"><a target="_blank"
-                            href="https://moodle.vitbhopal.ac.in/">Moodles<i
-                            class="fa fa-film"></i></a></button>
+                            href="https://abhishek2x.github.io/techera/"><i
+                                class="fa fa-newspaper"></i>TECHERA</a></button>
                 </li>
 
                 <li class="nav-item active">
                     <button type="button" class="btn chk"><a target="_blank"
-                            href="http://myerp.vitbhopal.ac.in:8080/vtop/initialProcess">Vtop<i
-                                class="fa fa-film"></i></a></button>
+                            href="https://moodle.vitbhopal.ac.in/"><i
+                            class="fa fa-film"></i>Moodles</a></button>
+                </li>
+
+                <li class="nav-item active">
+                    <button type="button" class="btn chk"><a target="_blank"
+                            href="http://myerp.vitbhopal.ac.in:8080/vtop/initialProcess"><i
+                                class="fa fa-film"></i>Vtop</a></button>
                 </li>
 
 {#                <li class="nav-item active">#}
@@ -109,8 +109,8 @@
                 {% if user.is_superuser %}
                 <hr>
                     <li class="nav-item active">
-                        <button type="button" class="btn chk"><a href="/admin">Admin<i
-                                    class="fas fa-user-shield"></i></a></button>
+                        <button type="button" class="btn chk"><a href="/admin"><i
+                                    class="fas fa-user-shield"></i>Admin</a></button>
                     </li>
                 {% endif %}
 
